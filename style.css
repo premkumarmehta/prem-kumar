@@ -177,6 +177,28 @@ nav ul li a:hover {
     transition: 0.5s;
 }
 
+.update-bar {
+  width: 100%;
+  background-color: #ffcc00;
+  color: #000;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 500;
+  position: sticky;
+   top: 0;
+}
+
+.update-bar a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.update-bar a:hover {
+  color: #333;
+}
+
 .side-menu {
     position: fixed;
     background: #1D2951;
